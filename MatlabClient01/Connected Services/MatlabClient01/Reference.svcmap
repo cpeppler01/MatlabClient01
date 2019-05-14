@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="53dd000d-5565-4047-a618-cc3b259285eb" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="net.pipe://matlabsvc/mex" Protocol="mex" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="service.wsdl" MetadataType="Wsdl" ID="314a2046-2e33-4325-830b-07daaf630154" SourceId="1" SourceUrl="net.pipe://matlabsvc/mex" />
+    <MetadataFile FileName="service.xsd" MetadataType="Schema" ID="aedab0aa-0df0-4fee-b2b2-88cb1448d5d2" SourceId="1" SourceUrl="net.pipe://matlabsvc/mex" />
+    <MetadataFile FileName="service1.xsd" MetadataType="Schema" ID="2e6fc3c8-821a-4db2-bcc1-798ceb248a72" SourceId="1" SourceUrl="net.pipe://matlabsvc/mex" />
+    <MetadataFile FileName="MatlabSvc.xsd" MetadataType="Schema" ID="bb9ec62f-659d-4c58-928a-3d8d7cf5ec4c" SourceId="1" SourceUrl="net.pipe://matlabsvc/mex" />
+    <MetadataFile FileName="Arrays.xsd" MetadataType="Schema" ID="0f1b2eb1-dbbe-439b-9b28-82144f50cad9" SourceId="1" SourceUrl="net.pipe://matlabsvc/mex" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
